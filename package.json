@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "chokidar": "^1.6.1",
+    "mineral": "^3.0.3",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "name": "mineral-cli",
+  "version": "1.0.0",
+  "bin": {
+    "min": "./min"
+  },
+  "repository": "git@github.com:voltraco/mineral-cli.git",
+  "author": "0x00a <paolo@async.ly>",
+  "license": "MIT"
+}

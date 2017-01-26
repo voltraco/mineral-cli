@@ -1,7 +1,7 @@
 # SYNOPSIS
 A cli tool for the [mineral](http://voltraco.github.io/mineral/) language.
 
-# INSTILLATION
+# INSTALLATION
 ```bash
 npm install mineral-cli
 ```

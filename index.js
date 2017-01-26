@@ -90,7 +90,7 @@ function compileFile (file) {
     const destfile = sourcepath.replace(/\.min$/, '.html')
     const target = path.join(out, path.basename(destfile))
     fs.writeFileSync(target, html)
-    console.log(' write: %s <- %s', trunc(destfile), trunc(sourcefile))
+    console.log(' write: %s <- %s', trunc(target), trunc(sourcefile))
   } catch (ex) {
     console.error(ex)
     process.exit(1)

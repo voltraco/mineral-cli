@@ -97,14 +97,6 @@ function compileFile (file) {
   }
 }
 
-function onReady () {
-  /* const watched = global.watcher.getWatched()
-  Object.keys(watched).map(p => watched[p].map(f => {
-    const target = path.join(p, f)
-    console.log(' watch: %s', trunc(target))
-  })) */
-}
-
 if (!argv.w) {
   argv._.forEach(compileFile)
 } else {
@@ -124,7 +116,5 @@ if (!argv.w) {
     global.watcher.add(target)
     console.log(' watch: %s -> %s', trunc(target), trunc(origin))
   }
-
-  global.watcher.on('ready', onReady)
 }
 

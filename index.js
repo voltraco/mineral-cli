@@ -3,6 +3,7 @@ const path = require('path')
 const minimist = require('minimist')
 const mkdirp = require('mkdirp')
 const chokidar = require('chokidar')
+const pkg = require('./package')
 
 const compile = require('mineral/compilers/html')
 const parse = require('mineral/parser')
@@ -24,6 +25,10 @@ if (argv.h) {
   `)
 
   process.exit(0)
+}
+
+if (argv.v) {
+  console.log(pkg.version)
 }
 
 let data = {}

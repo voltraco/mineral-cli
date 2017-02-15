@@ -2,12 +2,12 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "chokidar": "^1.6.1",
-    "mineral": "^3.0.8",
+    "mineral": "^3.0.10",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1"
   },
   "name": "mineral-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": {
     "min": "./min"
   },
